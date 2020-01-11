@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/Image_detail_studi"
+            android:layout_width="400px"
+            android:layout_marginTop="136px"
+            android:layout_marginLeft="21dp"
+            android:layout_height="100dp"
+            android:background="@drawable/customimageview"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="51dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_Judul_detail_study"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/customitextjudul"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/text_detail_studi"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginLeft="5dp"
+                android:maxLines="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/customitextjudul"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>

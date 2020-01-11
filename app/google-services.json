@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "739007537220",
+    "firebase_url": "https://solusibelajar-51291.firebaseio.com",
+    "project_id": "solusibelajar-51291",
+    "storage_bucket": "solusibelajar-51291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739007537220:android:8a89e9db590e33a4bb1c11",
+        "android_client_info": {
+          "package_name": "com.example.uass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739007537220-5d6c6omoh472cujeu7k7r32un2s7nimk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uass",
+            "certificate_hash": "a65847f7e350e6c28fe0fa85d895400b134d11ed"
+          }
+        },
+        {
+          "client_id": "739007537220-8e64erj87v8s2cpmnrgqa2lc5hr3fk8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHsWcFcgJogg07Dy9wl8E09edTXC2Gmx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739007537220-8e64erj87v8s2cpmnrgqa2lc5hr3fk8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

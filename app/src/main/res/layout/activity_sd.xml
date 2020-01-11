@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/wijed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"/>
+
+
+        <TextView
+            android:id="@+id/bounds"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:text="@string/sd"
+            android:textSize="20dp"
+
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="683dp"
+            android:background="@drawable/bounds" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <Spinner
+            android:id="@+id/spiner"
+            android:layout_marginLeft="150px"
+            android:layout_marginRight="150px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_mtk_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+
+            android:text="@string/matematika">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_bindo_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+
+            android:text="@string/bahasa_indonesia">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ipa_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+
+            android:text="@string/ipa">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_pkn_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+            android:text="@string/ppkn">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ips_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+
+            android:text="@string/ips">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_agama_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+
+            android:text="@string/agama">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_penjas_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+
+            android:text="@string/penjas">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_tema_sd"
+            android:layout_width="170dp"
+            android:layout_height="59dp"
+
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+
+            android:text="@string/tema">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+
